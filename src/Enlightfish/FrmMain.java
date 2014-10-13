@@ -333,7 +333,7 @@ public class FrmMain extends JFrame implements ActionListener, WindowListener
         /**************************
          * Visualizza la finestra *
          **************************/
-        this.setSize(600, 400);
+        this.setSize(600, 450);
         Dimension dimensioni = Toolkit.getDefaultToolkit().getScreenSize();
         setLocation((int)(dimensioni.getWidth()/2-getWidth()/2), (int)(dimensioni.getHeight()/2-getHeight()/2));
         this.setVisible(true);
