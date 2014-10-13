@@ -1,8 +1,8 @@
 # Enlightfish
 ----
 
-### ULTIMA VERSIONE
-[Enlightfish.jar] (v0.9.1)
+### ULTIMA VERSIONE 0.9.1
+[Enlightfish.jar]
 
 ### INFO
 * Ho scritto questa piccola applicazione per chattare in sicurezza nella chat di Ingress. In realtà l'ho scritta per svago, perché Hangout è molto più comodo. Il colore del testo non è scelto per motivi nerdici.
