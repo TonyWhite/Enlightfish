@@ -1,0 +1,38 @@
+NOME DEL PROGETTO:
+OBIETTIVO DEL PROGETTO:
+VERSIONE oppure DATA:
+COME AVVIARE IL PROGETTO:
+AUTORI: Antonio Bianco
+ISTRUZIONI PER L'UTENTE:
+ISTRUZIONI PER LO SVILUPPATORE:
+
+REQUISITI MINIMI
+Java 7 (Oracle o OpenJDK)
+
+LIBRERIE DI TERZI:
+gnu-crypto.jar: gnu.crypto
+javax-crypto.jar: javax.crypto, org.bouncycastle
+javax-security.jar: javax.security
+
+AVVERTENZE
+Mettere la password in un luogo sicuro ed evitare assolutamente di perderla: nemmeno il programmatore è in grado di risalire alla password originale.
+
+DEBUG:
+- Abilitare la copia della password
+
+DA FARE:
+- Abilitare la crittazione di un file
+- Abilitare la crittazione tramite un file chiave
+- Creare un'icona decente
+
+FATTO:
+- Salvataggio: il database dovrà essere contenuto in un'unica stringa.
+  Ogni classe coinvolta dovrà restituire il relativo contenuto sotto forma di stringa.
+  Magazzino>Operazione>Farmaco>Data.
+  La struttura sara' semplificata per essere rappresentabile in una matrice: un'operazione per riga.
+  Il risultato è passato alla classe Database che si occupa di proteggere il contenuto tramite Pescepalla e memorizzato nell'oggetto RawDatabase per essere salvato.
+- Password invisibile come nei terminali *nix.
+- Protezione con crittografia Bluefish.
+
+NON FARE:
+- Master password: chiunque veda il sorgente sarà in grado di decriptare qualsiasi messaggio

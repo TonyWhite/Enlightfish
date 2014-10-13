@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=cookieValue\ key
+comment0.target=java.lang.String\ cripta(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Cripta\ l'informazione\ con\ una\ chiave\ tramite\ l'algoritmo\ Blowfish\n\ \n\ La\ stringa\ viene\ convertita\ in\ esadecimale\ per\ transcodificare\ ogni\ carattere,\n\ anche\ speciale,\ nel\ rispettivo\ codice\ ascii.\n\ Il\ risultato\ viene\ suddiviso\ in\ blocchi\ da\ 8\ bit\n\ e\ memorizzato\ in\ un\ array\ di\ byte\ codificato\ in\ UTF8.\n\ Viene\ criptato\ con\ una\ password\ tramite\ l'algoritmo\ Blowfish.\ Anche\ qui\ \u00E8\ possibile\ usare\ i\ caratteri\ speciali.\n\ Infine\ viene\ codificato\ ulteriormente\ in\ Base64\ per\ permettere\ di\:\n\ -\ copiarlo\ come\ testo;\n\ -\ aggiungere\ un\ altro\ layer\ di\ codifica.\n
+comment1.params=cookieValue\ key
+comment1.target=java.lang.String\ decripta(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Decripta\ l'informazione\ con\ una\ chiave\ tramite\ l'algoritmo\ Blowfish\n
+numComments=2

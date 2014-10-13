@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=contenuto
+comment0.target=void\ toClipboard(java.lang.String)
+comment0.text=\n\ Incolla\ nella\ Clipboard\n
+comment1.params=
+comment1.target=java.lang.String\ fromClipboard()
+comment1.text=\n\ Legge\ il\ testo\ dalla\ clipboard\ di\ sistema\n
+comment2.params=clip\ tr
+comment2.target=void\ lostOwnership(java.awt.datatransfer.Clipboard,\ java.awt.datatransfer.Transferable)
+numComments=3
