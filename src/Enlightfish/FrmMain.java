@@ -410,7 +410,7 @@ public class FrmMain extends JFrame implements ActionListener, WindowListener
     {
         if (JOptionPane.YES_OPTION==JOptionPane.showConfirmDialog(this,"ATTENZIONE!\n\nCon questo comando copierai la tua password negli appunti di sistema\ne sarà disponibile con CONTROL+C su qualunque applicazione.\n\nSei sicuro di voler continuare?", this.getTitle(), JOptionPane.YES_NO_OPTION))
         {
-            String password = new String(txtPassword.getPassword());
+            String password = new String(txtPasswordToCheck.getPassword());
             clipboard.toClipboard(password);
             JOptionPane.showMessageDialog(this, "La password è stata copiata negli appunti di sistema.", this.getTitle(), JOptionPane.INFORMATION_MESSAGE);
             return;

@@ -1,7 +1,7 @@
 # Enlightfish
 ----
 
-### ULTIMA VERSIONE 0.9.1
+### ULTIMA VERSIONE 0.9.2
 [Enlightfish.jar]
 
 ### INFO
@@ -26,9 +26,12 @@ Java 7 (Oracle o OpenJDK)
 * Creare un'icona decente.
 
 ### DEBUG
-* Il pulsante "Copia" nella tab "password" non copia nella clipboard.
+* Nessun bug conosciuto.
 
 ### NOVITÀ E BUGFIX
+#### 14 ottobre 2014
+* Il pulsante "Copia" nella tab "password" ora funziona.
+
 #### 13 ottobre 2014
 * Upload su GitHub;
 
